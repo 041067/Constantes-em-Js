@@ -1,0 +1,36 @@
+# --- Constantes e Variáveis de Ambiente (Segurança) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Arquivos de segredo (segredos de criptografia, chaves privadas)
+*.secret
+*.key
+
+# --- Dependências ---
+node_modules/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- IDE e Editor ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+
+# --- Build e Produção ---
+dist/
+build/
+coverage/
